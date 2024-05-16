@@ -1,19 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Jersey+25+Charted&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
-:root{
-    --alice-blue: #edf2fbff;
---lavender-web: #e2eafcff;
---lavender-web-2: #d7e3fcff;
---periwinkle: #ccdbfdff;
---periwinkle-2: #c1d3feff;
---periwinkle-3: #b6ccfeff;
---jordy-blue: #abc4ffff;
+:root {
+    --primeira: #edf2fbff;
+    --segunda: #e2eafcff;
+    --terceira: #d7e3fcff;
+    --quarta: #ccdbfdff;
+    --quinta: #c1d3feff;
+    --sexta: #b6ccfeff;
+    --setima: #abc4ffff;
+    --textotitulo: "Danfo", serif;
+    --textocorpo: "Jersey 25 Charted", sans-serif;
 }
 
-body{
-    background: rgb(73, 156, 211);
+
+body {
+    background: var(--terceira);
     color: black;
+    font-family: var(--textocorpo);
 }
+
+.titulo{
+    font-family: var(--textotitulo);
+}
+
