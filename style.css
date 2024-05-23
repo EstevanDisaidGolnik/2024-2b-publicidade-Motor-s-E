@@ -6,7 +6,7 @@
 }
 
 :root {
-    --primeira: #edf2fbff;
+    --primeira: rgb(0, 89, 255);
     --segunda: #e2eafcff;
     --terceira: #d7e3fcff;
     --quarta: #ccdbfdff;
@@ -24,7 +24,23 @@ body {
     font-family: var(--textocorpo);
 }
 
-.titulo{
+.cabecalho{
+background-color: var(--sexta);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 12px;
+}
+
+.cabecalho-img{
+    width: 12%;
+    border-radius: 100%;
+}
+.cabecalho-nav__link{
+    text-decoration: none;
     font-family: var(--textotitulo);
+    font-size: 24px;
+    color: var(--primeira);
+    margin-right: 24px;
 }
 
