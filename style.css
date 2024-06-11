@@ -25,7 +25,7 @@ body {
 }
 
 .cabecalho{
-background-color: var(--sexta);
+background-color: black;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -43,4 +43,33 @@ padding: 12px;
     color: var(--primeira);
     margin-right: 24px;
 }
+.principal-capa{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 24px;
+background-image: url(img/Banner\ Da\ Motors\ ESport.png);
+background-size: 88vh;
+padding: 12px 12px;
+
+
+}
+
+.principal-capa__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.principal-capa__titulo{
+font-family: var(--textotitulo);
+font-size: 48px;
+color: orange;
+margin-bottom: 12px;
+}
+.principal-capa__texto{
+    font-size: 24px;
+    margin-right: 24px 30% 24px 24px;
+}
+
 
