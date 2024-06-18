@@ -48,8 +48,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 gap: 24px;
-background-image: url(img/Banner\ Da\ Motors\ ESport.png);
-background-size: 88vh;
+background-image: url(img/banner.jpg);
+background-size: 100%;
 padding: 12px 12px;
 
 
@@ -62,14 +62,13 @@ padding: 12px 12px;
 }
 
 .principal-capa__titulo{
-font-family: var(--textotitulo);
+font-family: var(--textotitulo);    
 font-size: 48px;
-color: orange;
+color: black;
 margin-bottom: 12px;
 }
 .principal-capa__texto{
     font-size: 24px;
     margin-right: 24px 30% 24px 24px;
 }
-
 
