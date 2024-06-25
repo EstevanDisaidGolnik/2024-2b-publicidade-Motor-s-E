@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Danfo&family=Jersey+25+Charted&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 :root {
     --primeira: rgb(0, 89, 255);
-    --segunda: #e2eafcff;
+    --segunda: rgb(82, 105, 156);
     --terceira: #d7e3fcff;
     --quarta: #ccdbfdff;
     --quinta: #c1d3feff;
-    --sexta: #b6ccfeff;
+    --sexta: rgb(0, 81, 231);
     --setima: #abc4ffff;
+    --oitava: rgb(150, 41, 47);
+    --nona: rgb(0, 0, 0);
     --textotitulo: "Danfo", serif;
     --textocorpo: "Jersey 25 Charted", sans-serif;
 }
@@ -24,51 +26,136 @@ body {
     font-family: var(--textocorpo);
 }
 
-.cabecalho{
-background-color: black;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 12px;
+.cabecalho {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
 }
 
-.cabecalho-img{
+.cabecalho-img {
     width: 12%;
     border-radius: 100%;
 }
-.cabecalho-nav__link{
+
+.cabecalho-nav__link {
     text-decoration: none;
     font-family: var(--textotitulo);
     font-size: 24px;
     color: var(--primeira);
     margin-right: 24px;
 }
-.principal-capa{
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: 24px;
-background-image: url(img/banner.jpg);
-background-size: 100%;
-padding: 12px 12px;
+
+.principal-capa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/Banner\ Da\ Motors\ ESport.png);
+    background-size: 100%;
+    padding: 12px 12px;
 
 
 }
 
-.principal-capa__conteudo{
+.principal-capa__conteudo {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.principal-capa__titulo{
-font-family: var(--textotitulo);    
-font-size: 48px;
-color: black;
-margin-bottom: 12px;
+.principal-capa__titulo {
+    font-family: var(--textotitulo);
+    font-size: 48px;
+    color: var(--sexta);
+    margin-bottom: 12px;
+    margin-left: 700px;
 }
-.principal-capa__texto{
-    font-size: 24px;
-    margin-right: 24px 30% 24px 24px;
+.principal-capa__titulo:hover{
+    text-shadow: 3px 3px 5px var(--nona);
+    transition: 350ms;
 }
 
+.principal-capa__texto {
+    font-size: 20px;
+    margin-left: 800px;
+}
+.principal-capa__texto:hover{
+    text-shadow: 3px 3px 5px var(--nona);
+    transition: 350ms;
+}
+
+.principal-capa__imagem {
+    border-radius: 0 5% 0 5%;
+    width: 10%;
+}
+
+.principal-capa__combotao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.principal-capa__botao {
+    background-color: var(--segunda);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2em;
+    color: var(--quarta);
+    text-decoration: none;
+}
+.principal-capa__botao:hover{
+    box-shadow: 3px 3px 5px var(--nona);
+    transition: 350ms;
+}
+
+.principal-capa__botao-secundario {
+    background-color: var(--setima);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 4em;
+    color: var(--quarta);
+    text-decoration: none;
+}
+.principal-capa__botao-secundario:hover{
+    box-shadow: 3px 3px 5px var(--nona);
+    transition: 350ms;
+}
+
+.propaganda {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7em;
+}
+
+.propaganda__imagem {
+    width: 70%;
+    border-radius: 40%;
+    margin-left: 20%;
+}
+
+.propaganda__titulo {
+    font-family: var(--textotitulo);
+    font-size: 45px;
+    color: var(--segunda);
+}
+
+.propaganda__titulo:hover {
+    text-shadow: 3px 3px 5px var(--nona);
+    transition: 700ms;
+}
+
+.propaganda__texto {
+    font-family: var(--textocorpo);
+    font-size: 22px;
+    color: var(--oitava);
+}
+.propaganda__texto:hover{
+    text-shadow: 3px 3px 5px var(--nona);
+    transition: 350ms;
+}
