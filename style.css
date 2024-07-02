@@ -15,19 +15,20 @@
     --setima: #abc4ffff;
     --oitava: rgb(150, 41, 47);
     --nona: rgb(0, 0, 0);
+    --decima: #00BBFF;
     --textotitulo: "Danfo", serif;
     --textocorpo: "Jersey 25 Charted", sans-serif;
 }
 
 
 body {
-    background: var(--terceira);
+    background: var(--decima);
     color: black;
     font-family: var(--textocorpo);
 }
 
 .cabecalho {
-    background-color: black;
+    background-color: var(--nona);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +43,7 @@ body {
 .cabecalho-nav__link {
     text-decoration: none;
     font-family: var(--textotitulo);
-    font-size: 24px;
+    font-size: 32px;
     color: var(--primeira);
     margin-right: 24px;
 }
@@ -72,7 +73,8 @@ body {
     margin-bottom: 12px;
     margin-left: 700px;
 }
-.principal-capa__titulo:hover{
+
+.principal-capa__titulo:hover {
     text-shadow: 3px 3px 5px var(--nona);
     transition: 350ms;
 }
@@ -81,14 +83,16 @@ body {
     font-size: 20px;
     margin-left: 800px;
 }
-.principal-capa__texto:hover{
+
+.principal-capa__texto:hover {
     text-shadow: 3px 3px 5px var(--nona);
     transition: 350ms;
 }
 
 .principal-capa__imagem {
-    border-radius: 0 5% 0 5%;
-    width: 10%;
+    border-radius: 50%;
+    width: 13%;
+    border: 4px solid var(--nona);
 }
 
 .principal-capa__combotao {
@@ -106,7 +110,8 @@ body {
     color: var(--quarta);
     text-decoration: none;
 }
-.principal-capa__botao:hover{
+
+.principal-capa__botao:hover {
     box-shadow: 3px 3px 5px var(--nona);
     transition: 350ms;
 }
@@ -116,10 +121,12 @@ body {
     border-radius: 5px;
     padding: 1em;
     margin-top: 4em;
+    margin-left: 1270px;
     color: var(--quarta);
     text-decoration: none;
 }
-.principal-capa__botao-secundario:hover{
+
+.principal-capa__botao-secundario:hover {
     box-shadow: 3px 3px 5px var(--nona);
     transition: 350ms;
 }
@@ -137,6 +144,12 @@ body {
     width: 70%;
     border-radius: 40%;
     margin-left: 20%;
+    border: 4px solid var(--nona);
+}
+
+.propaganda__imagem:hover {
+    box-shadow: 3px 3px 5px var(--nona);
+    transition: 700ms;
 }
 
 .propaganda__titulo {
@@ -153,9 +166,15 @@ body {
 .propaganda__texto {
     font-family: var(--textocorpo);
     font-size: 22px;
-    color: var(--oitava);
+    color: var(--segunda);
 }
-.propaganda__texto:hover{
+
+.propaganda__texto:hover {
     text-shadow: 3px 3px 5px var(--nona);
     transition: 350ms;
+}
+
+.propaganda2 {
+    display: flex;
+    flex-direction: column;
 }
