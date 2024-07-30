@@ -81,7 +81,7 @@ body {
 
 .principal-capa__texto {
     font-size: 20px;
-    margin-left: 800px;
+    margin-left: 635px;
 }
 
 .principal-capa__texto:hover {
@@ -177,4 +177,54 @@ body {
 .propaganda2 {
     display: flex;
     flex-direction: column;
+}
+
+.dispositivos {
+    text-align: center;
+    width: 30%;
+    margin-left: 30%;
+    
+
+}
+
+.dispositivos__titulo {
+    font-family: var(--textocorpo);
+    font-size: 48px;
+    color: var(--nona);
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item {
+    font-family: var(--textotitulo);
+    font-size: 24px;
+    color: var(--nona);
+}
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+.lista__link a{
+    text-decoration: none;
+    color: var(--nona);
+    margin-left: 1em;
+}
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--nona);
+    font-size: 18px;
+}
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+.rodape__logo{
+    width: 10%;
 }
